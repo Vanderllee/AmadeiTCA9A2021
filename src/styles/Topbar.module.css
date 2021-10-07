@@ -29,7 +29,6 @@
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
-    cursor: pointer;
 }
 
 .topIcon {
@@ -54,12 +53,6 @@
     cursor: pointer;
 }
 
-.topSearchIcon {
-    font-size: 18px;
-    color: #666;
-    cursor: pointer;
-    margin-left: 15px;
-}
 
 
 

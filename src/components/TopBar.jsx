@@ -51,7 +51,7 @@ export default function TopBar() {
 
 
             <div className={Topbar.topCenter}>
-                <ul className={Topbar.topList}>
+                <ul className={Topbar.topList} >
                     <li className={Topbar.topIcon}>
                         HOME
                     </li>
@@ -75,7 +75,12 @@ export default function TopBar() {
             </div>
                 
         
-            
+            <div className={Topbar.topImg}>
+                <img 
+                    src="/assets/turma9A.jpeg" 
+                    alt="Imagem da turma"               
+                />
+            </div>
                
         </div>
     )

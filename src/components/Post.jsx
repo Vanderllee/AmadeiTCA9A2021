@@ -1,52 +1,46 @@
+/* eslint-disable @next/next/no-img-element */
+import { useState } from "react"
+
+import styles from '../styles/Post.module.css'
 
 
-export default function Post() {
+export default function Post(props) {
+
+    const [poste, setPost] = useState(props.post)
+
     return (
-        
-        <div className="post">
-        {
-            post.photo && 
-                (<img 
-                    className="postImg" 
-                    src={ PF+post.photo }
+
+        <div className= {styles.post}>
+            {
+                poste.imageURL &&
+                (<img
+                    className= {styles.postImg}
+                    src={poste.imageURL}
                     alt="minha foto"
                 />)
-            
-        }
 
-        <div className="postInfo">
-            <div className="postCats">
-                
-                {
-                    post.categories.map((c) => (
-                        <span className="postCat">{ c.name }</span>
-                    ))
-                }
-                
-            </div>
+            }
 
-            <Link to={`/post/${post._id}`} className="link">
-            
-                <span className="postTitle">
-                    { post.title }
+            <div className= {styles.postInfo}>
+
+                <span className= {styles.postTitle}>
+                    {poste.title}
                 </span>
 
-            </Link>
-            
-            <hr />
-            <span className="postDate">
-            { new Date(post.createdAt).toDateString() }
-            </span>
+                <hr />
+                <span className= {styles.postDate} >
+                    {new Date(poste.date).toDateString()}
+                </span>
+
+            </div>
+
+            <p className= {styles.postDesc} >
+
+                {poste.text}
+
+            </p>
         </div>
+    )
 
-        <p className="postDesc">
 
-
-           { post.desc }
-           
-        </p>
-    </div>
-)
-
-    
 }

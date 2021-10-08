@@ -2,6 +2,7 @@ import TopBar from '../components/TopBar'
 import Sidebar from '../components/SideBar'
 import Header from './Header'
 import Posts from './Posts'
+import styles from '../styles/Main.module.css'
 
 export default function Main() {
     return (
@@ -9,7 +10,7 @@ export default function Main() {
 
             <Header />
 
-            <div>
+            <div className={styles.main}>
                 <Posts />
                 <Sidebar />
             </div>

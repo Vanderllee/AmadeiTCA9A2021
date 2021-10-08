@@ -1,12 +1,17 @@
 
 import TopBar from '../components/TopBar'
-import Sidebar from '../components/SideBar'
+import Main from '../components/Main'
+import Posts from '../components/Posts'
 
 export default function Home() {
   return (
-    <div>
-      <TopBar />
-      <Sidebar />
-    </div>
+    <>
+        <TopBar />
+
+        <div>
+          <Main />
+          <Posts />
+        </div>
+    </>
   )
 }

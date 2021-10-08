@@ -4,7 +4,7 @@ export const dataPost = [
         title: "Como diminuir o consumo",
         username: "José Vanderli",
         text: 'A importância de diminuir maus habitos de consumo...',
-        photo: "",
+        imageURL: "https://www.iberdrola.com/wcorp/gc/prod/pt_BR/comunicacion/reducir_consumo_plastico_mult_1_res/ConsejosPlastico_746x419_POR.jpg",
     },
 
     {
@@ -12,7 +12,7 @@ export const dataPost = [
         title: "Devemos diminuir o consumo",
         username: "André Silva",
         text: 'A importância de diminuir maus habitos de consumo...',
-        photo: "",
+        imageURL: "https://docelimao.com.br/site/images/cache/288c38ba0861a8308fb5e8f4b66b26f2_w640_h360_cp_sc.jpg",
     },
 
     {
@@ -20,7 +20,7 @@ export const dataPost = [
         title: "Cosumismo é um problema grave",
         username: "Pedro Alves",
         text: 'A importância de diminuir maus habitos de consumo...',
-        photo: "",
+        imageURL: "https://www.masottiinvestimentos.com.br/upload/blogs/5-dicas-para-reduzir-o-consumo-de-energia-eletrica-92-042240.png",
     },
 
     {
@@ -28,7 +28,7 @@ export const dataPost = [
         title: "Diminua consumo ",
         username: "Carlos Eduardo",
         text: 'A importância de diminuir maus habitos de consumo...',
-        photo: "",
+        imageURL: "https://www.premix.com.br/blog/wp-content/uploads/2020/03/Infografico-Dia-Agua.jpg",
     },
 ]
 

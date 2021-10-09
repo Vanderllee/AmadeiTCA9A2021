@@ -39,6 +39,7 @@
     margin-right: 10px;
     color: #999;
     cursor: pointer;
+    
 }
 
 .topList {
@@ -59,6 +60,18 @@
 
 
 
+.topIcon {
+    transition: 0.4s;
+    color: #999;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.topIcon:hover {
+    color: #EEA900;
+    padding: 30px 10px;
+}
 
 /* 
     font-family: 'Josefin Sans', sans-serif;

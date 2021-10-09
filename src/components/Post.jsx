@@ -45,11 +45,7 @@ export default function Post(props) {
 
             </div>
 
-            <p className={styles.postDesc} >
-
-                {poste.text}
-
-            </p>
+            
         </div>
     )
 

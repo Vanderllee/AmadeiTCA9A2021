@@ -20,8 +20,6 @@ export default function Singlepost() {
         
     }, [id])
 
-   
-
     return (
         <div>
             <Singlepage post={postdata} />

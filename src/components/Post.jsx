@@ -9,41 +9,43 @@ import styles from '../styles/Post.module.css'
 
 
 export default function Post(props) {
-   
+
 
     const [poste, setPost] = useState(props.post)
 
     return (
 
-        <div className= {styles.post}>
-            {
-                poste.imageURL &&
-                (<img
-                    className= {styles.postImg}
+        <div className={styles.post}>
+
+
+            <Link href={`/post/${poste.id}`}>
+
+                <img
+                    className={styles.postImg}
                     src={poste.imageURL}
                     alt="minha foto"
-                />)
+                />
 
-            }
+            </Link>
 
-            <div className= {styles.postInfo}>
+            <div className={styles.postInfo}>
 
                 <Link href={`/post/${poste.id}`}>
-                
-                    <span className= {styles.postTitle}>
+
+                    <span className={styles.postTitle}>
                         {poste.title}
                     </span>
-                
+
                 </Link>
 
                 <hr />
-                <span className= {styles.postDate} >
+                <span className={styles.postDate} >
                     {new Date(poste.date).toDateString()}
                 </span>
 
             </div>
 
-            <p className= {styles.postDesc} >
+            <p className={styles.postDesc} >
 
                 {poste.text}
 

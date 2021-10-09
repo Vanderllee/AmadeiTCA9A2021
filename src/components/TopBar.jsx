@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from 'next/link';
+
 import { 
     faFacebookSquare, 
     faInstagramSquare, 
@@ -52,24 +54,19 @@ export default function TopBar() {
 
             <div className={Topbar.topCenter}>
                 <ul className={Topbar.topList} >
-                    <li className={Topbar.topIcon}>
-                        HOME
-                    </li>
-                    <li className={Topbar.topIcon}>
 
-                        SOBRE
-                    </li>
-                    <li className={Topbar.topIcon}>
-                        CONTATO
-                    </li>
-                    <li className={Topbar.topIcon}>
-                        POST
-                    </li>
-                    <li
-                        className={Topbar.topIcon}
-                    >
+                    <Link href="/" >
+                        <a className={Topbar.topIcon}> HOME</a>
+                    </Link>
+                    <Link href="/escola" >
+                        <a className={Topbar.topIcon}> ESCOLA</a>
+                    </Link>
 
-                    </li>
+                    <Link href="/alunos" >
+                        <a className={Topbar.topIcon}> ALUNOS </a>
+                    </Link>
+
+    
                 </ul>
 
             </div>

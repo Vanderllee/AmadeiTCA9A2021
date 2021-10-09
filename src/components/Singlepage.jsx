@@ -1,50 +1,100 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from   'next/link';
+import TopBar from './TopBar';
 import styles from '../styles/Singlepage.module.css'
+import SideBar from './SideBar';
 
 export default function Singlepage(props) {
     return (
-            
-        <div className="singlepost">
-        <div className="singlePostWraper">
-            
-               
-                    <img src={props.post.imageURL} 
-                        alt="Minha imagem" 
-                        className="singlePostImg" 
-                    />
+        <>    
+            <TopBar  />
 
-            
+        <div className= {styles.singlepost} >
+            <div className={styles.singlePostWraper} >
+                    
+                            <img 
+                                src={props.post.imageURL} 
+                                alt="Minha imagem" 
+                            />
 
-            <div className="singlePostInfo">
-                <span className="singlePostAuthor">
-                    Author: 
-                        <Link to={ ` /?user=${ post.username } ` } className="link">
-                            <b>{post.username}</b>
-                        </Link>
-                </span>
+                    <div className= {styles.singlePostInfo} >
+                            <span className=  {styles.singlePostAuthor} >
+                                Author: 
+                                        <b>{props.post.username}</b>
+                                    
+                            </span>
 
-                <span className="singlePostDate">
-                    { new Date(post.createdAt).toDateString() }
-                </span>
-            </div>
+                            <span className= {styles.singlePostDate}>
+                                { new Date(props.post.date).toDateString() }
+                            </span>
+                    </div>
 
-            {
-                updateMode 
-                ? (<textarea 
-                    className="singlePostDescInput" 
-                    value={ desc }
-                    onChange={(e) => setDesc(e.target.value)} 
-                />)
-                : (<p className="singlePostDesc"> { desc } </p>)
-            }
+                    <span style={{display: 'flex'}}>
 
-           { updateMode 
-            && (<button className="singlePostButton"onClick={ handleUpdate }>Atualizar</button>)
-            }
-        </div>
-    </div>
 
-       
+                            <div className={styles.singlePostDesc}>
+                                    <h1  className={styles.postTitle} >
+                                            {
+                                                props.post.title
+                                            }
+                                    </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                </p>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                </p>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                    Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
+                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
+                                    neque facilis numquam error sit.
+                                </p>
+                             
+                            </div>
+                            <SideBar />
+                        
+                    </span>
+
+
+             </div>
+
+        
+         </div>
+
+    </> 
     )
 }

@@ -11,8 +11,7 @@ import Sidebar from '../styles/Sidebar.module.css';
 
 
 export default function SideBar() {
-
-
+    
     return (
         <div className={Sidebar.sidebar}>
             <div className={Sidebar.sidebarItem}>

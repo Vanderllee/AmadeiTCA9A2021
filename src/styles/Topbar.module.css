@@ -21,7 +21,7 @@
 }
 
 .topCenter {
-    flex: 12;
+    flex: 20;
 }
 
 .topImg img {
@@ -30,7 +30,8 @@
     border-radius: 50%;
     object-fit: cover;
     background-color: red;
-    margin-right: 10px;
+    margin-right: 30px;
+    margin-top: 15px;
 }
 
 .topIcon {
@@ -44,6 +45,7 @@
     display: flex;
     justify-content: center;
     margin: 0;
+    margin-right: 40px;
     padding: 0;
     list-style: none;
 }

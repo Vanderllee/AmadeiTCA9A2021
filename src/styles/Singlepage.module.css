@@ -4,17 +4,19 @@
 
 .singlePostWraper {
     padding: 20px;
-    padding-right: 0;
+    padding-right: 10;
     display: flex;
     flex-direction: column;
 }
 
-.siglePostImg {
+.singlePostWraper img {
     width: 100%;
-    height: 300px;
-    border-radius: 5px;
+    height: 350px;
+    border-radius: 10px;
     object-fit: cover;
 }
+
+
 
 .siglePostTitle {
     text-align: center;
@@ -31,15 +33,6 @@
     border: none;
     border-bottom: 1px solid lightgray;
     color: grey;
-}
-
-.singlePostTitleInput:focus {
-    outline: none;
-}
-
-.singlePostEdit {
-    float: right;
-    font-size: 16px;
 }
 
 .singlePostIcon {
@@ -65,10 +58,11 @@
     font-family: 'Varela', sans-serif;
 }
 
-.singlePostDesc {
+.singlePostDesc  p {
     color: #666;
     font-size: 18px;
     line-height: 25px;
+    margin-right: 40px;
 }
 
 .singlePostDesc::first-letter {
@@ -77,25 +71,14 @@
     font-weight: 600;
 }
 
-.singlePostDescInput {
-   border: none;
-   color: #666;
-    font-size: 18px;
-    line-height: 25px;
-}
 
-.singlePostDescInput {
-    outline: none;
-}
-
-.singlePostButton {
-    width: 100px;   
-    border: none;
-    background-color: teal;
-    padding: 5px;
-    color: white;
-    border-radius: 5px;
+.postTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
     cursor: pointer;
-    align-self: flex-end;
-    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }

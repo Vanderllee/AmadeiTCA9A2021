@@ -16,7 +16,7 @@
 
 .headerTitleSm {
     position: absolute;
-    top: 8%;
+    top: 7%;
     font-size: 30px;
     color: #FF5702;
 }
@@ -41,5 +41,16 @@
     height: 100vh;
     margin-top: 80px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 450px) {
+    
+    .headerImg {
+
+        width: 600px;
+        margin-left: 80px;
+        box-sizing: content-box;
+        
+    }
 }
 

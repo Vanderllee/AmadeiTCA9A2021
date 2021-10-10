@@ -18,6 +18,11 @@
         display: none;
     }
 
+    .topCenter {
+        margin-left: 100px;
+
+    }
+
 }
 
 .topLeft, .topRight {

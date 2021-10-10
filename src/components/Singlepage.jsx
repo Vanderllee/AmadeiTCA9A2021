@@ -10,7 +10,7 @@ export default function Singlepage(props) {
         <>    
             <TopBar  />
 
-        <div className= {styles.singlepost} >
+         <div className= {styles.singlepost} >
             <div className={styles.singlePostWraper} >
                     
                             <img 
@@ -30,7 +30,7 @@ export default function Singlepage(props) {
                             </span>
                     </div>
 
-                    <span style={{display: 'flex'}}>
+                    <span className={styles.descSidebar}>
 
 
                             <div className={styles.singlePostDesc}>
@@ -85,6 +85,7 @@ export default function Singlepage(props) {
                                 </p>
                              
                             </div>
+
                             <SideBar />
                         
                     </span>

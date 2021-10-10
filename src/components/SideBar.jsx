@@ -24,13 +24,13 @@ export default function SideBar() {
                         src="/assets/turma9A.jpeg"
                         alt="Imagem da turma"
                     />
-                </div>
-
                 <p>
                     Nós somos alunos do 9A do ensino fundamental,
                     ...
 
                 </p>
+                </div>
+
             </div>
 
 

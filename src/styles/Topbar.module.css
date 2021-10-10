@@ -13,8 +13,8 @@
 
 }
 
-@media only screen and (max-width: 700px) {
-    .top {
+@media (max-width: 679px) {
+    .topImg {
         display: none;
     }
 

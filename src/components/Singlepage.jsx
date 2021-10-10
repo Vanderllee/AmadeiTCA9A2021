@@ -40,49 +40,9 @@ export default function Singlepage(props) {
                                             }
                                     </h1>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
+                                {props.post.text}
                                 </p>
 
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
-                                </p>
-
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
-                                    Lorem ipsum dolor sit amet consectetur, 
-                                    adipisicing elit. Earum dolores beatae ut tempore rerum vel esse,
-                                    explicabo ea molestiae libero doloremque illo dicta harum reiciendis 
-                                    neque facilis numquam error sit.
-                                </p>
                              
                             </div>
 

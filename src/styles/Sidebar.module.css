@@ -75,7 +75,7 @@
 @media screen and (max-width: 469px) {
     .sidebarItem img, .sidebar {
        width: 100%;
-       margin-right: -70%;
+       margin-right: -50%;
        height: 100%;
 
 

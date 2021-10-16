@@ -66,11 +66,19 @@ export const dataPost = [
     },
     {
         id: "6",
-        title: "Diminua consumo ",
-        username: "José Vanderli",
-        date: '10/10/2021',
-        text: 'A importância de diminuir maus habitos de consumo...',
-        imageURL: "https://economia.culturamix.com/blog/wp-content/gallery/consumismo-e-suas-consequencias-3/Consumismo-e-Suas-Consequ%C3%AAncias-4.png",
-    },
+        title: "O Consumismo durante a pandemia ",
+        username: "Danilo Pinheiro de Oliveira",
+        date: '10/14/2021',
+        text: `
+        
+        A vida das pessoas e de empresas de todos os ramos teve grandes impactos no primeiro trimestre de 2020, o que acarretou em más condições no deslocamento de consumidores e trabalhadores. Como consequência, houveram mudanças de padrões de comportamento em relação ao consumo.
+        As principais lojas de varejo tinham o seu alvo as lojas físicas para comércio, porém, por conta da pandemia elas viram-se obrigadas a comercializar seus produtos via web, portanto, foi uma das mudanças imposta pela pandemia para evitar aglomerações e que a contaminação se espalhasse.
+        Outro fator que alavancou muitas vendas nos tempos em pandemia foi os produtos de higiene, precisando de mais sabão e álcool em gel. Por conta disso, o preço de desinfetantes, sabão, lenço umedecido e outros produtos de higiene tiveram um aumento de 20%. O álcool em gel, por outro lado, teve um aumento de 1000%, contudo, com a subida da demanda deste item, as empresas começaram a produzir mais, fazendo com que o preço diminuísse nas grandes capitais.
+        Um dos outros setores mais impactados pela pandemia foi certamente os bares e restaurantes, que tiveram que fechar seus estabelecimentos, restringindo seus atendimentos presenciais, o que fez pequenos empreendedores entrarem nos aplicativos de delivery. Entretanto, esses aplicativos receberam um número crescente de clientes, tendo um aumento de 30%, o que gerou comodidade entre as pessoas, atribuindo esse novo hábito a elas.
+        Os produtos eletrônicos e eletrodomésticos também tiveram um grande acréscimo de buscas nos tempos de pandemia, comprando máquinas de lavar, TV e outros acessórios pela internet. Vendas de cadeiras, mesas, escritórios, e itens de papelaria também foram beneficiados nesse cenário pandêmico, contudo, vale ressaltar as frustrações dos consumidores com os elevados valores de frete e sua demora para a entrega até suas casas.        
+        
+        `,
+        imageURL: "https://noomis-files-hmg.s3.amazonaws.com/content/5969fcf0-d1dc-11ea-8c96-592daf48c097.jpeg",
+    }
 ]
 

@@ -40,9 +40,6 @@ export default function TopBar() {
                     <FontAwesomeIcon icon={faPinterestSquare}/> 
                 </i>
                 <a
-                    href="https://instagram.com/vanderllee/"
-                    target="_blank"
-                    rel="noreferrer"
                 >
                     <i className= {`${Topbar.topIcon} `} >
                         <FontAwesomeIcon icon={faInstagramSquare}/> 
